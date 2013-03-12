@@ -9,7 +9,7 @@
 # duplicates and doesn't handle for ties. 
 #
 
-def score(l1, l2, depth = 10):
+def RBO(l1, l2, depth = 10):
     """
         Calculates Average Overlap score. 
         l1 -- Ranked List 1
