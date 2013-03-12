@@ -8,7 +8,7 @@
 # duplicates and doesn't handle for ties. 
 #
 
-def score(l1, l2, p = 0.98):
+def RBO(l1, l2, p = 0.98):
     """
         Calculates Ranked Biased Overlap (RBO) score. 
         l1 -- Ranked List 1
